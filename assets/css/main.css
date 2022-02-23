@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: #151515;
+   max-width: 100%;
+   font-family: 'Open Sans', sans-serif;
+}
+/*HEADER*/
+.header-bg{
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 70px;
+    max-width: 100%;
+    align-items: center;
+    margin: 0 0 200px 0;
+
+}
+header .header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header .logo-a img{
+    max-width: 230px;
+    align-items: center;
+}
+header ul{
+display: flex;
+flex-direction: row;
+}
+header ul li{
+    list-style-type: none;
+    margin: 10px 20px;
+}
+header ul li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 0 0 4px 0;
+}
+header ul li a:hover{
+    transition: 0.2s ease-out;
+    border-bottom: 2px solid #ffbf00;
+}
+header .language{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    
+
+}
+header .language a .language-img img{
+    width: 30px;
+    height: 30px;
+    border-radius:  50%;
+    margin: 0 10px 0 0;
+}
+header .language a {
+    color:#fff;
+    text-decoration: none;
+    font-weight: 900;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+}
+header .language a:hover{
+    transition: 0.5s ease;
+   background: #333333;
+   border-radius: 50px; 
+}
+
+/*HEADER END*/
+
+.icerik{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: -370px;
+    color: #fff;
+    
+}
+
+.icerik .ben{
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(10, 10, 10);
+    max-width: 1000px;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icerik .ben .hakkimda-left img{
+    width: 300px;
+    margin-right: 50px;
+    border-radius: 2px;
+}
+.icerik .ben .hakkimda-right{
+    margin-left: 50px;
+    font-weight: 400;
+}
+.icerik .ben .hakkimda-right .merhaba{
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+.icerik .ben .hakkimda-right .hakkimda .hakkimda-baslik{
+    padding-right: 70px;
+    font-weight: 800;
+}
+.icerik .ben .hakkimda-right .is{
+    margin-bottom: 30px;
+}
+.icerik .ben .hakkimda-right .hakkimda ul li{
+    list-style-type: none;
+}
+.icerik .ben .hakkimda-right .hakkimda{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ffbf00;
+    padding: 20px 10px;
+    border-radius: 3px;
+}
+.icerik .ben .hakkimda-right .sosyal-medya ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icerik .ben .hakkimda-right .sosyal-medya ul li{
+    list-style-type: none;
+    margin: 20px 10px 0 10px;
+}
+.icerik .ben .hakkimda-right .sosyal-medya ul li a{
+    color: #fff;
+    font-size: 30px;
+}
+.icerik .ben .hakkimda-right .sosyal-medya ul li a:hover{
+    color: #ffbf00 ;
+    transition: 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+hover efect: #333333;
+hover efect orange: #ffbf00;
+
+*/
