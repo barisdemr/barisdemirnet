@@ -1,1 +1,1 @@
-project-git-branch-team.vercel.app
+http://project-git-branch-team.vercel.app
