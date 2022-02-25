@@ -1,1 +1,1 @@
-# www.barisdemir.net  Mark #1
+barisdemir.net
